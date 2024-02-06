@@ -11,3 +11,12 @@ Creates image montages (including cingle channel images and Merge image with sca
 
 #### Segment_and_Measure_over_time_v1.0.ijm
 Similar to Segmentation_and_Measurement_v2.0.ijm. Additionally processes every n-th time frame from each stack in the directory.
+
+#### thresholdmacro_insituHCR_v1.0.ijm
+Manually define/modify a threshold binary masks for single cell in situ HCR images.
+
+#### Spotdetection_insituHCR_v1.0.ijm
+Counts in situ HCR spots, using thresholds for cell segmentation from thresholdmacro_insituHCR_v1.0.ijm
+
+#### Spotdetection_insituHCR_with_prominence_interation_v1.0.ijm
+Similar to Spotdetection_insituHCR_v1.0.ijm. Additionally performes promince value iteration over the entire 8bit scale to be able to determine optimal prominence value.
