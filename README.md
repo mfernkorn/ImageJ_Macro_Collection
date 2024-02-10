@@ -20,3 +20,6 @@ Counts in situ HCR spots, using thresholds for cell segmentation from thresholdm
 
 #### Spotdetection_insituHCR_with_prominence_interation_v1.0.ijm
 Similar to Spotdetection_insituHCR_v1.0.ijm. Additionally performes promince value iteration over the entire 8bit scale to be able to determine optimal prominence value.
+
+#### Colony_Counting_v1.0.ijm.ijm.ijm
+Detect and Count colonies stained with alkaline phosphatase from stitched tile scans (e.g. whole 6-well plate well). Based on manual threshold selection and provides opportunity to mannually correct detects spots.
